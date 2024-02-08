@@ -24,11 +24,11 @@ def guess_age():
 def count():
     print('Now I will prove to you that I can count to any number you want.')
 
-    num = int(input())
-    curr = 0
-    while curr <= num:
-        print(curr, '!')
-        curr = curr + 1
+    number = int(input())
+    current_number = 0
+    while current_number <= number:
+        print(current_number, '!')
+        current_number = current_number + 1
         
 
 def test():
